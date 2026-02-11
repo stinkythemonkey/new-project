@@ -17,29 +17,34 @@ const age = document.getElementById('age').value();
 let ifIsValid = true;
 
 
-
+/*Name Validation */
 if(username == "") {
     ifIsValid = false;
-    alert("Please enter a valid name")
+    alert("Please enter a valid name");
 }
 
+//Phone Validation */
 if(phone === ''){
     isValid = false;
     alert("Please enter your phone number.")
-} else if {
-    phone.length < 10
-    alert("Please enter a phone number longer than 10 numbers.")
+} else if (phone.length < 10) {
+   
+    alert("Please enter a phone number that is 10 digits.");
 }
 
-if(!email[email]){
+
+/*Email validation*/
+if (email == "" || !email.includes("@")|| email.includes(".")){
     ifIsValid = false;
-    alert("please enter a valid email address please.")
+    alert("please enter a valid email address please.");
 }
 
-
+if(isValid){
+    completedForm();
+}
 
 function completedForm(){
-alert("Thank you for submitting an enquiry about Didsbury Good Neighbours, someone will be in touch with you soon. ")
+alert("Thank you for submitting an enquiry about Didsbury Good Neighbours, someone will be in touch with you soon. ");
 }
 
 
