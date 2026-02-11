@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+   
     padding: 0;
 }
 
@@ -28,23 +29,25 @@ header{
 
 nav {
     background-color: lightblue;
-    padding: 20px;
+    margin-top: 1rem;
 }
 
 nav ul {
     display: grid;
     list-style-type: none;
     grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
+    gap: 5px;
     background-color: lightblue;
     padding: 5px;
     margin: 0;
+    padding: 0;
 }
 
 nav a {
     display: block;
-    background-color: whitesmoke;
+   
     color: #000;
+    background-color: whitesmoke;
     text-decoration: none;
     text-align: left;
     margin-top: 10px;
@@ -52,9 +55,11 @@ nav a {
     padding: 15px; 
 }
 
+
 nav a:hover {
     cursor: pointer;
     color: black;
+    transform: scale(1);
 }
 
 img {
@@ -66,12 +71,14 @@ img {
 
 h1 {
     font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #000;
 }
 
 h2, h3 {
     font-size: large;
+    text-align: left;
     color: #000;
 }
 
@@ -92,6 +99,7 @@ section {
 
 section p {
     padding-top: 10px;
+    padding-left: 5px;
 }
 
 section a {
@@ -102,6 +110,12 @@ section a {
 
 section li {
     text-align: left;
+    padding-left: 5px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
 }
 
 section a:hover {
@@ -127,9 +141,11 @@ main p {
 .right-column {
     flex: 1;
     padding: 15px;
-    border: 1.5px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     background-color: whitesmoke;
+    
+    
 }
 
 .box-area {
@@ -138,9 +154,11 @@ main p {
    text-align: left;
 }
 
-#useful-info {
+.useful-info {
     padding-top: 5px;
+    padding-bottom: 5px;
     background-color: white;
+    
 }
 
 #opening-hours {
@@ -153,8 +171,9 @@ button {
     color: #000;
     border-radius: 0.5rem;
     border-style: solid;
-    font-weight: 400;
-    padding: 10px;
+    font-weight: 200;
+    padding: 5px;
+    padding-left: 5px;
     cursor: pointer;
     font-size: 20px;
     text-align: center;
@@ -172,10 +191,18 @@ button:hover {
 }
 
 footer {
-    padding: 1rem;
+    padding: 0.2rem;
+    margin-top: 0.3rem;
     background-color: lightblue;
+    text-align: left;
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer p  {
+    color: black;
+
+text-shadow: 0cqb;
 }
 
 form {
@@ -185,20 +212,66 @@ form {
     color: black;
 }
 
-
+aside {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin: 20px;
+    text-shadow: 0cqb;
+    background-color: white;
+}
 
 
 form[name = "memberform"] {
-    max-width: 600px;
+    max-width: 100%;
     padding: 20px;
-    margin: 10px ;
+    max-width: 100%;
+    margin: 15px auto ;
     background-color: white;
-    border: solid black 1px;
+    border: solid black 0.1px;
     text-align: left;
     font-weight: lighter;
-         }  
+    }  
 
 form[name ="memberform"] input[type ="name"],
-form[name ="memberform"] input[type ="phone"] {
+form[name ="memberform"] input[type ="phone"] 
+form[name="memberform"] input[type="email"] 
+form[name="memberform"] text-area
+form[name ="memberform"] select {
     width: 50%;
+    height: 50%;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
+
+
+form[name="memberform"] fieldset {
+border: #000;
+padding: 5px;
+margin-top: 15px;
+margin-bottom: 15px;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+
+form[name="memberform"] legend {
+    font-weight: bold;
+
+}
+
+form[name="memberform"] label {
+    display: block;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+  form[name="memberform"] button {
+    width: 75%;
+    padding: 10px;
+    margin-top: 15px;
+  }
