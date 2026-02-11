@@ -35,38 +35,7 @@ if(!email){
     alert("please enter a valid email address please.")
 }
 
-//If all the checks are correct then it will display this message.
-function finishFunction() {
-    alert("Thank you for completing the quiz.")
-}
 
-
-
-function checkAnswers() {
-    /*Assign "0" to the score variable*/
-    var score = 0;
-
-    /*Assign the quiz elements to the quiz variable*/
-    quiz = document.form.quiz.elements;
-
-    /*Assign the answer to the question to the answer1 variable*/
-    answer1 = quiz.growth.value; 
-
-    //Check if the answer to the first question
-        if(answer1 == "55") {
-            //add 1 to the score if the user was correct
-            score = score +1;
-        }
-
-        answer2 = quiz.talent.value;
-            if(answer2 == "10"){
-                score = score +1;
-            }
-
-            answer3 = quiz
-
-    alert('Well done, your score was ...' + score);
-*/}
 
 function completedForm()(){
 alert("Thank you for submitting an enquiry about Didsbury Good Neighbours, someone will be in touch with you soon. ")
