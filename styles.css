@@ -191,4 +191,7 @@ form[name = "memberform"] {
     font-weight: lighter;
          }  
 
-form[name ="memberform"] input[type =n]
+form[name ="memberform"] input[type ="name"],
+form[name ="memberform"] input[type ="name"] {
+    width: 50%;
+}
