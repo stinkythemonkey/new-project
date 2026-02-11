@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="form">
+    <title>Members form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+      <ul>
+        <li><a href="Project mock up.html">Home</a></li>
+        <li><a href="form.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    
+<header>
+    <h1>Enquiries Form</h1>
+
+
+    
+</header>
+<main>
+
+    
+        <p>Please fill out this form to register your interest. We will have a member of our team get in touch with you on more infomation.</p>
+        <form name="memberform">
+            <fieldset>
+                <legend>Member Details</legend>
+                <label for="username">Name: </label>
+                <input id="username" type="text" required name="username">
+
+                <label for="phone">Phone:</label>
+                <input id="phone" type="tel" required name="phone" >
+
+                <label for="email">Email: </label>
+                <input id="email" type="email" required name="email">
+            </fieldset>
+
+            <fieldset> 
+            
+            <!-- CHECKBOX BUTTONS -->
+            <fieldset>
+            <legend>Areas of your interest:</legend>
+
+            
+            <input type="checkbox" id="social" name="interest">
+                <label for="social">Coffee Morning & Social events</label>
+            
+
+            
+            <input type="checkbox" id="arts" name="Arts & crafts">
+                <label for="arts">Arts & Crafts</label>
+
+                
+            <input type="checkbox" id="volunteering" name="volunteering">
+                <label for="volunteering">Volunteering</label>
+
+            
+                <input type="checkbox" id="tech" name="Technology & Digital Skills">
+                <label for="tech">Technology & Digital Skills</label>
+
+                <input type="checkbox" id="fitness" name="fitness classes">
+                <label for="fitness">Fitness & exercise classes</label>
+
+                <input type="checkbox" id="gardening" name="gardening">
+                <label for="gardening">Gardening</label>
+            </fieldset>
+
+            <!-- Dropdown Menu -->
+            <fieldset>
+            
+             <label for="Age"> Are you over 55? </label>
+             <select name="age" id="age">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            </fieldset>
+           
+
+            <fieldset>
+                
+                <legend>Questions or any additional infomation (Optional)</legend>
+                <label for = "name">Comment* </label>
+                <textarea id="comment" name="comment" rows="4">
+                </textarea>
+            </fieldset>
+            <br>
+            <br>
+
+            <button type="button" onclick="alert('Thank you for submitting an enquiry about Didsbury Good Neighbours, someone will be in touch with you soon.')">Submit Interest Here</button>
+             <button type="reset">Reset</button>
+
+        </form>
+
+</body>
+<footer>
+<p>@2026 Didsbury Good Neighbours. Registered Charity no 12347</p>
+</footer>
+<script src="script.js"></script>
+</html>
+
