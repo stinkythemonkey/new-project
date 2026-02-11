@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.logo img {
+    border: none;
+    height: 50px;
+    width: 500px;
+}
+
+body {
+    padding: 0px;
+    max-width: 5000px;
+    height: 100vh;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+header{
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+nav ul {
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    background-color: whitesmoke;
+    color: #000;
+    text-decoration: none;
+    text-align: left;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 15px; 
+}
+
+nav a:hover {
+    cursor: pointer;
+    color: black;
+}
+
+img {
+    width: 100px;
+    margin: 5px;
+    height: 100px;
+    border: 0 1rem solid lightblue;
+}
+
+h1 {
+    font-size: larger;
+    text-align: center;
+    color: #000;
+}
+
+h2, h3 {
+    font-size: large;
+    color: #000;
+}
+
+p {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section {
+    background-color: bisque;
+    padding: 0 2rem;
+    border: 2px solid black;
+}
+
+section p {
+    padding-top: 10px;
+}
+
+section a {
+    margin-left: 0;
+    padding: 1rem;
+    color: black;
+}
+
+section li {
+    text-align: left;
+}
+
+section a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: blue;
+}
+
+main {
+    display: flex;
+    background-color: bisque;
+    padding: 15px;
+    gap: 15px;
+}
+
+main p {
+    display: flex;
+    padding: 15px;
+    gap: 12px;
+}
+
+.left-column, 
+.right-column {
+    flex: 1;
+    padding: 15px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.box-area {
+   background-color: whitesmoke; 
+   margin-top: 20px;
+   text-align: left;
+}
+
+#useful-info {
+    padding-top: 5px;
+    background-color: white;
+}
+
+#opening-hours {
+    padding-top: 5px;
+}
+
+button {
+    border: solid 2px;
+    background-color: whitesmoke;
+    color: #000;
+    border-radius: 0.5rem;
+    border-style: solid;
+    font-weight: 400;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+}
+
+button:hover {
+    background-color:rgb(114, 175, 199);
+    color: black;
+}
+
+footer {
+    padding: 1rem;
+    background-color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    color: black;
+}
+
+
+
+
+form[name = "memberform"] {
+    max-width: 600px;
+    padding: 20px;
+    margin: 10px ;
+    background-color: white;
+    border: solid black 1px;
+    text-align: left;
+    font-weight: lighter;
+         }  
+
+form[name ="memberform"] input[type ="name"],
+form[name ="memberform"] input[type ="name"] {
+    width: 50%;
+}

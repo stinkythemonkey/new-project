@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+  <ul id="menu">
+        <li class="menu-item"><a href="Project mock up.html">Home Page</a></li>
+        <li class="menu-item"><a href="form.html">Contact Us</a></li>
+        <li class="menu-item" id="active"><a href="quiz.html">Quiz</a></li>
+    </ul>
+    </nav>
+    <h1>What is Didsbury Good Neighbours About?</h1>
+
+    <h2>Here is a quiz about Didsbury Good Neighbours</h2>
+
+    <form name="Quiz">
+
+    <label for="name">Enter your name: </label> <input type="text" id="name"  name="name" size="30">
+    
+    <p>What age do you need to be become a member at our center?</p>
+    <br>
+  <input type="radio" id="age50" name="growth" value="50">
+  <label for="age50">50</label><br>
+  <input type="radio" id="age55" name="growth" value="55">
+  <label for="age55">55</label><br>
+  <input type="radio" id="age60" name="growth" value="60">
+  <label for="age60">60</label><br>
+
+  <label for="talent">How many activites do we have running each week?</label>
+  <input type="number" name="talent" min="0" max="20" step="1">
+
+ <label for="Age"> Who is our community aimed at?</label>
+<select name="age" id="age">
+<option value="Young Adults">Young Adults</option>
+<option value="Senior members">Senior members of the community</option>
+<option value="middle aged people">Middle Aged people</option>
+</select>
+
+
+<p>Who is our community helping? (Choose as many as you like)</p>
+   <br>
+  <input type="checkbox" id="local" name="local">
+    <label for="local">The local people of Didsbury</label>
+
+     <input type="checkbox" id="community" name="community">
+    <label for="community">The older community</label>
+
+    <input type="checkbox" id="oppourtunities" name="oppourtunities">
+    <label for="oppourtunities">Create new oppourtunities</label>
+
+     <input type="checkbox" id="confidence" name="confidence">
+    <label for="confidence">Build confidence to lead their independent lives</label>
+
+    <input type="checkbox" id="skills" name="skills">
+    <label for="skills">Learn new skills</label>
+  
+
+
+<p>How do we get funding to keep providing to the members of our center?</p>
+<br>
+<input type="checkbox" id="council" name="council">
+    <label for="council">Manchester City Counsil</label>
+
+     <input type="checkbox" id="events" name="events">
+    <label for="events">Local Events</label>
+
+    <input type="checkbox" id="partnerships" name="partnerships">
+    <label for="partnerships">Local Partnerships</label>
+
+     <input type="checkbox" id="donations" name="donations">
+    <label for="donations">Donations from locals</label>
+
+
+  <p>How is our organization led?</p>
+  <br>
+<select name="lead" id="lead">
+<option value="Young Adults">By volunters</option>
+<option value="students">Young students</option>
+<option value="paided staff">Paided staff</option>
+</select>
+
+
+
+
+</form>
+<br>
+<br>
+ <button type="button" onclick="alert('Thank you for submitting your quiz answers')">Submit</button>
+ <button type="reset">Reset</button>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+ 
+           
