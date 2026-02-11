@@ -20,6 +20,7 @@ let ifIsValid = true;
 
 if(username == "") {
     ifIsValid = false;
+    alert("Please enter a valid name")
 }
 
 if(phone === ''){
@@ -30,16 +31,15 @@ if(phone === ''){
     alert("Please enter a phone number longer than 10 numbers.")
 }
 
-if(!email){
+if(!email[email]){
     ifIsValid = false;
     alert("please enter a valid email address please.")
 }
 
 
 
-function completedForm()(){
+function completedForm(){
 alert("Thank you for submitting an enquiry about Didsbury Good Neighbours, someone will be in touch with you soon. ")
 }
 
 
-const 
