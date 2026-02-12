@@ -292,8 +292,8 @@ form[name = "memberform"] {
     }  
 
 form[name ="memberform"] input[type ="name"],
-form[name ="memberform"] input[type ="phone"] 
-form[name="memberform"] input[type="email"] 
+form[name ="memberform"] input[type ="phone"]
+form[name="memberform"] input[type="email"]
 form[name ="memberform"] select {
     width: 50%;
     height: 50%;
