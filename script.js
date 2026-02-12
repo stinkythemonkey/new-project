@@ -6,6 +6,7 @@
 // === - checks the equal value and equal type  
 
 //Form values
+//decaring a constant variable //
 
 const username = document.getElementById('username').value();
 const phone = document.getElementById('phone').value();
@@ -13,12 +14,15 @@ const email = document.getElementById('email').value();
 const age = document.getElementById('age').value();
 
 
+
+console.log(username);
+console.log(phone);
 // Check the validation of the values in the form
 
 let ifIsValid = true;
 
 /*Name Validation */
-if(username ==== "") {
+if(username === "") {
     ifIsValid = false;
     alert("Please enter a valid name");
 }

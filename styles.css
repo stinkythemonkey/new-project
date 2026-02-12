@@ -51,7 +51,7 @@ nav {
 nav ul {
     display: grid;
     list-style-type: none;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 5px;
     background-color: lightblue;
     padding: 5px;
@@ -70,11 +70,10 @@ nav a {
     padding: 15px; 
 }
 
-
 nav a:hover {
     cursor: pointer;
     color: black;
-    transform: scale(1);
+    transform: rotate(10deg);
 }
 
 
@@ -184,7 +183,7 @@ main p {
     
 }
 
-.box-area {
+#box-area {
    background-color: whitesmoke; 
    margin-top: 20px;
    text-align: left;
@@ -352,6 +351,7 @@ form[name="memberform"] input[type="checkbox"] + label {
     font-weight: 10px;
   }
 
+
 /* Quiz CSS */
 
 form[name = "Quiz"] {
@@ -387,5 +387,3 @@ form[name="Quiz"] h1 {
     text-align: center;
     padding-top: 10px;
 }
-   
-
