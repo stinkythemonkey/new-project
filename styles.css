@@ -73,7 +73,7 @@ nav a {
 nav a:hover {
     cursor: pointer;
     color: black;
-    transform: rotate(10deg);
+    transform: rotate(1.2);
 }
 
 
@@ -186,15 +186,11 @@ main p {
 #box-area {
    background-color: whitesmoke; 
    margin-top: 20px;
+   padding-top: 5px;
+    padding-bottom: 5px;
    text-align: left;
 }
 
-#useful-info {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: white;
-    
-}
 
 #opening-hours {
     padding-top: 5px;
