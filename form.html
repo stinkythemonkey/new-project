@@ -35,10 +35,10 @@
                 <input id="username" type="text" required name="username" placeholder="Your name..">
 
                 <label for="phone">Phone:</label>
-                <input id="phone" type="tel" required name="phone" placeholder="Enter your phone number"     >
+                <input id="phone" type="tel" required name="phone" placeholder="Enter your phone number...">
 
                 <label for="email">Email: </label>
-                <input id="email" type="email" required name="email" placeholder="Enter email">
+                <input id="email" type="email" required name="email" placeholder="Enter email...">
             </fieldset>
 
             <fieldset> 
@@ -74,7 +74,10 @@
             <!-- Dropdown Menu -->
             <fieldset>
             
-             <label for="age"> Are you over 55? </label>
+
+
+                <legend>Are you over 55?:</legend>
+             <label for="age"></label>
              <select name="age" id="age">
                 <option value="Yes">Yes</option>
                 <option value="No">No</option>
@@ -85,7 +88,7 @@
             <fieldset>
                 
                 <legend>Questions or any additional infomation (Optional)</legend>
-                <label for = "name"> Comment* </label>
+                <label for = "name">Comment* </label>
                 <textarea id="comment" name="comment" rows="4">
                 </textarea>
             </fieldset>
@@ -94,7 +97,6 @@
 
             <button type="button" onclick="alert('Thank you for submitting an enquiry about Didsbury Good Neighbours, someone will be in touch with you soon.')">Submit Interest Here</button>
              <button type="reset">Reset</button>
-
         </form>
 
 </body>

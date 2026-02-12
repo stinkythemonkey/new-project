@@ -42,12 +42,11 @@ if (email === "" || !email.includes("@")|| email.includes(".")){
     alert("please enter a valid email address please.");
 }
 
-/*if(isValid){
+if(isValid){
     completedForm();
 }
 
 function completedForm(){
 alert("Thank you for submitting an enquiry about Didsbury Good Neighbours, someone will be in touch with you soon. ");
 }
-*/
 
