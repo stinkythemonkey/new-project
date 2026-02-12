@@ -278,6 +278,7 @@ aside {
 
 form {
     width: 100%;
+    position: absolute;
     margin: 20px;
     border-radius: 20px;
     text-align: left;
